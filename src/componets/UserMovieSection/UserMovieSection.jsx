@@ -92,16 +92,13 @@ function UserMovieSection(props) {
               return (
                 <div className="p-1 mt-2 mb-5">
                   <div class="hover:border-2 hover:scale-105 group relative block overflow-hidden rounded-sm transition-all duration-500">
-                    <a
-                      class="lightbox transition-all duration-500 group-hover:scale-105 tobii-zoom"
-                      title=""
-                    >
+    
                       <img
                         onClick={() => handleMoviePopup(movie)}
                         className=""
                         src={imageUrl2 + movie.backdrop_path}
                       />
-                    </a>
+                    
                     <div
                       style={{
                         background:
