@@ -91,7 +91,10 @@ function UserMovieSection(props) {
               const converted = convertGenere(movie.genre_ids);
               return (
                 <div className="p-1 mt-2 mb-5">
-                  <div class="hover:border-2 hover:scale-105 group relative block overflow-hidden rounded-sm transition-all duration-500">
+                  <div 
+                     class="hover:border-2 hover:scale-105 group relative block overflow-hidden rounded-sm transition-all duration-500"
+                     onClick={() => handleMoviePopup(movie)}
+                  >
     
                       <img
                         onClick={() => handleMoviePopup(movie)}
