@@ -93,8 +93,7 @@ function Banner(props) {
               </div>
             )}
             
-            {movie.production_companies.logo_path != null && <img src={imageUrl  +production_companies.logo_path }/>}
-
+            
             <div className="flex">
               <div className=" hidden sm:flex justify-center sm:justify-start ml-2">
                 {movie.vote_average ? (
