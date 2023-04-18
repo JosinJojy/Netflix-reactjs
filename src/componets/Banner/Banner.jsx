@@ -92,6 +92,8 @@ function Banner(props) {
                 <div className="animate-pulse w-72 ml-4 sm:ml-0 sm:w-96 py-5 mb-7 xl:py-7 xl:w-45rem bg-neutral-900 rounded-md"></div>
               </div>
             )}
+            
+            {movie.production_companies.logo_path && <img src={imageUrl  +production_companies.logo_path }/>}
 
             <div className="flex">
               <div className=" hidden sm:flex justify-center sm:justify-start ml-2">
