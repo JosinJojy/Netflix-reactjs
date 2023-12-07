@@ -12,7 +12,7 @@ import useUpdateWatchedMovies from "../../CustomHooks/useUpdateWatchedMovies";
 function MoviePopUp(props) {
   const { showModal, setShowModal } = useContext(PopUpContext);
   const { addToMyList, removeFromMyList, PopupMessage } = useUpdateMylist();
-  const { addToLikedMovies, LikedMoviePopupMessage } = useUpdateLikedMovies();
+  const { addToLikedMovies, removeFromLikedMovies, LikedMoviePopupMessage } = useUpdateLikedMovies();
   const { removeFromWatchedMovies, removePopupMessage } =
     useUpdateWatchedMovies();
   const { playMovie } = usePlayMovie();
@@ -90,7 +90,7 @@ function MoviePopUp(props) {
                     </button>
                     {props.from === "LikedMovies" ? (
                       <div
-                        onClick={() => removeFromMyList(PopupInfo)}
+                        onClick={() => removeFromLikedMovies(PopupInfo)}
                         className="text-white w-10 h-10 border-[2px] rounded-full p-2 mr-1 backdrop-blur-[1px] hover:bg-white hover:text-black shadow-md cursor-pointer ease-linear transition-all duration-150"
                       >
                         <svg
