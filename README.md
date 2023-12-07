@@ -1,2 +1,2 @@
 # Netflix-reactjs
-[Link](https://netflix-reactjs-rho.vercel.app/)
+[Link](https://netflicz-reactjs-rho.vercel.app/)
