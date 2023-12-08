@@ -168,7 +168,7 @@ function Banner(props) {
                   </button>
                   <button
                     onClick={() => handleMoviePopup(movie)}
-                    className="bg-[#33333380] flex items-center shadow-2xl border-2 mb-3 text-xl font-semibold text-white hover:bg-white hover:text-black transition duration-500 ease-in-out py-2 px-8 rounded-md"
+                    className="bg-[#33333380] flex items-center shadow-2xl mb-3 text-xl font-semibold text-white hover:bg-white hover:text-black transition duration-500 ease-in-out py-2 px-8 rounded-md"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
