@@ -5,7 +5,12 @@ This project is a Netflix clone built using React.js, designed to enhance skills
 
 ## Screenshots
 
-![PC screen](https://drive.google.com/file/d/184EvH7fjLwBS1qdaJew5LssgHi0zzqbB/view?usp=drivesdk)
+![PC screen](https://i.imgur.com/bt7kMG9.jpg)
+
+
+
+### mobile screens 
+![mobile screens](https://i.imgur.com/isoePb5.jpg)
  
 ## Key Functionalities
 - Sign In / Sign Up
