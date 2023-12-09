@@ -88,7 +88,10 @@ function UserMovieSection(props) {
             .slice(0)
             .reverse()
             .map((movie) => {
-              const converted = convertGenere(movie.genre_ids);
+              let converted
+              if (movie.genre_ids) {
+                converted = convertGenere(movie.genre_ids);
+              }
               return (
                 <div className="p-1 mt-2 mb-5">
                   <div 
