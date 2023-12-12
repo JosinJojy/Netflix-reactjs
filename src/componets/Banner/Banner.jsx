@@ -40,10 +40,6 @@ function Banner(props) {
     }
 
     window.addEventListener('resize', handleWindowResize)
-    console.log(windowSeize,"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk")
-    // return () => {
-    //   window.removeEventListener('resize', handleWindowResize)
-    // }
 
   }, []);
 
@@ -64,16 +60,12 @@ function Banner(props) {
   };
 
   return (
-    //window.innerWidth
     <>
       <div
         style={{
           backgroundImage: `linear-gradient(90deg, hsl(0deg 0% 7% / 91%) 0%, hsl(0deg 0% 0% / 0%) 35%, hsl(220deg 26% 44% / 0%) 100%), url(${
             movie
               ? imageUrl + movie.backdrop_path
-                // (windowSeize.width < 720
-                //   ? movie.poster_path
-                //   : movie.backdrop_path)
               : ""
           })`,
         }}
