@@ -22,12 +22,6 @@ function MoviePopUp(props) {
 
   useEffect(() => {
     setPopupInfo(props.data1);
-
-    //if (props.from === "MyList") {
-      //removeButtonText = "";
-    //} else if (props.from === "WatchedMovies") {
-      //removeButtonText = "MyList";
-    //}
   }, []);
 
   return (
