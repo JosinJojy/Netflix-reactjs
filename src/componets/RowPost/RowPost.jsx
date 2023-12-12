@@ -89,11 +89,6 @@ function RowPost(props) {
     }
   };
 
-  //<img src={`${imageUrl+moviePopupInfo.backdrop_path}`}/>
-  //<iframe width="100%" height="auto" src="https://www.youtube.com/embed/hm97DNF9Z_8?showinfo=0&controls=0&autoplay=1" frameborder="0" allow="autoplay" className='Yt hidden' allowfullscreen></iframe>
-  //className={`content pt-16 `}
-  //www.youtube.com/watch?v=bLMyiPeBCiw
-  //style={{backgroundImage:`url(${isHover? imageUrl+obj.backdrop_path : ""})`}}
   return (
     <div
       className="ml-2 lg:ml-11 mb-11 lg:mb-4 RowContainer"
@@ -135,15 +130,6 @@ function RowPost(props) {
                     </>
                   ) : (
                     <>
-                      {/* {obj.backdrop_path ?
-                        <>
-                          <img className='rounded-sm' src={`${imageUrl+obj.backdrop_path}`} 
-                          onClick={()=>handleMoviePopup(obj)} />
-                        </> 
-                        : 
-                        <>
-                        <img src='https://i.ytimg.com/vi/Mwf--eGs05U/maxresdefault.jpg'></img>
-                        </>} */}
                       <img
                         loading="lazy"
                         className={
@@ -162,56 +148,6 @@ function RowPost(props) {
                   )}
                   <div className="content pt-16">
                     <Fade bottom duration={300}>
-                      {/* <div className="flex ml-2 transition ease-in-out delay-150">
-                        <svg
-                          onClick={() => playMovie(obj)}
-                          onMouseEnter={() => setshouldPop(false)}
-                          onMouseLeave={() => setshouldPop(true)}
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-10 w-10 text-white hover:text-gray-300 ease-linear transition-all duration-150"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                        <svg
-                          onClick={() => addToMyList(obj)}
-                          onMouseEnter={() => setshouldPop(false)}
-                          onMouseLeave={() => setshouldPop(true)}
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-10 w-10 text-white hover:text-gray-300 ease-linear transition-all duration-150"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        <svg
-                          onClick={() => handleMoviePopup(obj)}
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-[2.20rem] w-[2.20rem] mt-[0.20rem] border-[3px] border-solid rounded-full text-white hover:text-gray-300 hover:border-gray-300 ease-linear transition-all duration-150"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M19 9l-7 7-7-7"
-                          />
-                        </svg>
-                      </div> */}
-
                       <div className="flex transition ml-3 ease-in-out delay-150">
                         <div
                           onClick={() => playMovie(obj)}
