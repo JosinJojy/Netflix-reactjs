@@ -91,13 +91,6 @@ function Play() {
             setSimilarMovies(res.data.results.slice(0, 8));
           });
       });
-
-    // if(Object.keys(movieDetails).length === 0){
-    //   axios.get(`/tv/${id}?api_key=${API_KEY}&language=en-US`).then(responce=>{
-    //     setMovieDetails(responce.data)
-    //     console.log(movieDetails,"Movie Details")
-    //   })
-    // }
   }, []);
 
   return (
