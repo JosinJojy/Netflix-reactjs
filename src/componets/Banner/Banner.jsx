@@ -140,7 +140,7 @@ function Banner(props) {
                 <>
                   <button
                     onClick={() => playMovie(movie)}
-                    className="bg-red-800 hover:bg-red-900 transition duration-500 ease-in-out shadow-2xl flex items-center mb-3 mr-3 text-xl font-semibold text-white py-2 sm:py-2 px-10 sm:px-14 rounded-md"
+                    className="bg-red-800 hover:bg-red-900 transition duration-500 ease-in-out shadow-2xl flex items-center mb-3 mr-3 text-base sm:text-xl font-semibold text-white py-2 sm:py-2 px-10 sm:px-14 rounded-md"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@ function Banner(props) {
                   </button>
                   <button
                     onClick={() => handleMoviePopup(movie)}
-                    className="bg-[#33333380] flex items-center shadow-2xl mb-3 text-xl font-semibold text-white hover:bg-white hover:text-black transition duration-500 ease-in-out py-2 px-8 rounded-md"
+                    className="bg-[#33333380] flex items-center shadow-2xl mb-3 text-base sm:text-xl font-semibold text-white hover:bg-white hover:text-black transition duration-500 ease-in-out py-2 px-8 rounded-md"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +181,7 @@ function Banner(props) {
                 </>
               ) : (
                 <>
-                  <button className="animate-pulse bg-neutral-900 transition duration-500 ease-in-out shadow-2xl flex items-center mb-3 mr-3 text-xl font-semibold text-neutral-500 py-2 sm:py-2 px-10 sm:px-14 rounded-md">
+                  <button className="animate-pulse bg-neutral-900 transition duration-500 ease-in-out shadow-2xl flex items-center mb-3 mr-3 text-base sm:text-xl font-semibold text-neutral-500 py-2 sm:py-2 px-10 sm:px-14 rounded-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-5 items-center mr-2"
@@ -203,7 +203,7 @@ function Banner(props) {
                     </svg>
                     Play
                   </button>
-                  <button className="animate-pulse bg-neutral-900 flex items-center shadow-2xl mb-3 text-xl font-semibold text-neutral-500 transition duration-500 ease-in-out py-2 px-8 rounded-md">
+                  <button className="animate-pulse bg-neutral-900 flex items-center shadow-2xl mb-3 text-base sm:text-xl font-semibold text-neutral-500 transition duration-500 ease-in-out py-2 px-8 rounded-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6 items-center mr-2"
