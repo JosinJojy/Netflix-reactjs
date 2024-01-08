@@ -55,7 +55,7 @@ function RowPost(props) {
       768: { slidesPerView: 3.3, slidesPerGroup: 3 },
       625: { slidesPerView: 3.1, slidesPerGroup: 3 },
       330: { slidesPerView: 2.1, slidesPerGroup: 2 },
-      0: { slidesPerView: 2, slidesPerGroup: 1.75 },
+      0: { slidesPerView: 2, slidesPerGroup: 2 },
     },
   };
 
