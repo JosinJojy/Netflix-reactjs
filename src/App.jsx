@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div>
-      {User ? <Navbar></Navbar> : <NavbarWithoutUser></NavbarWithoutUser>}
+      {User ? <Navbar/> : <NavbarWithoutUser/>}
       <Suspense replace fallback={<Loading />}>
         <Routes>
           <Route index path="/" element={User ? <Home /> : <Welcome />} />
