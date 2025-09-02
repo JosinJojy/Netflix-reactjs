@@ -71,7 +71,7 @@ function Navbar(props) {
                 <div className="flex-shrink-0">
                   <img
                     className="h-6 cursor-pointer w-18"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png"
+                    src="https://fontmeme.com/permalink/250902/1c1670dd6284f8d01001e1c74b52aae3.png"
                     alt="NETFLIX"
                   />
                 </div>
